@@ -3,70 +3,80 @@ entries:
   hypershift-agent-template:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-07-20T11:56:40.30462833+02:00"
+    created: "2023-07-20T12:11:02.295346314+02:00"
+    description: Hypershift cluster template with agent workers
+    digest: 0b6618b066ce046d931bd8eb96cbeb1dad2fcd43a27962ac9701d1e545c9e980
+    name: hypershift-agent-template
+    type: application
+    urls:
+    - https://github.com/ammont82/cluster-templates-manifests/hypershift-agent-template-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-07-20T12:11:02.295179859+02:00"
     description: Hypershift cluster template with agent workers
     digest: 01ceb3d7092673ec00e4fe2c5ffe7f245481893d48ac810e7c1a62c535d24093
     name: hypershift-agent-template
     type: application
     urls:
-    - https://github.com/ammont82/cluster-templates-manifests.git/hypershift-agent-template-0.0.2.tgz
+    - https://github.com/ammont82/cluster-templates-manifests/hypershift-agent-template-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-07-20T11:56:40.30443606+02:00"
+    created: "2023-07-20T12:11:02.295016121+02:00"
     description: Hypershift cluster template with agent workers
     digest: 6c102d58ca9a76c17681eb260e71be3e699801f292501d225261356cb3d6f8de
     name: hypershift-agent-template
     type: application
     urls:
-    - https://github.com/ammont82/cluster-templates-manifests.git/hypershift-agent-template-0.0.1.tgz
+    - https://github.com/ammont82/cluster-templates-manifests/hypershift-agent-template-0.0.1.tgz
     version: 0.0.1
   hypershift-kubevirt-template:
   - annotations:
       cluster-template: "true"
     apiVersion: v2
-    created: "2023-07-20T11:56:40.30537965+02:00"
+    created: "2023-07-20T12:11:02.295781597+02:00"
     description: A Helm chart which installs Hypershift cluster using KubeVirt platform
     digest: 2b5d44df585930cc6b4c4129937b0434e8ebc957d08f6d084ae8d501f1dcabcb
     name: hypershift-kubevirt-template
     type: application
     urls:
-    - https://github.com/ammont82/cluster-templates-manifests.git/hypershift-kubevirt-template-0.0.3.tgz
+    - https://github.com/ammont82/cluster-templates-manifests/hypershift-kubevirt-template-0.0.3.tgz
     version: 0.0.3
   - annotations:
       cluster-template: "true"
     apiVersion: v2
-    created: "2023-07-20T11:56:40.305000293+02:00"
+    created: "2023-07-20T12:11:02.29554465+02:00"
     description: A Helm chart which installs Hypershift cluster using KubeVirt platform
     digest: f9dba9ee49c541c0610561b53dedb4330eec2b9f1f8b286df61fd1d004725321
     name: hypershift-kubevirt-template
     type: application
     urls:
-    - https://github.com/ammont82/cluster-templates-manifests.git/hypershift-kubevirt-template-0.0.1.tgz
+    - https://github.com/ammont82/cluster-templates-manifests/hypershift-kubevirt-template-0.0.1.tgz
     version: 0.0.1
   hypershift-template:
   - annotations:
       cluster-template: "true"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-20T11:56:40.306133598+02:00"
+    created: "2023-07-20T12:11:02.296304174+02:00"
     description: A Helm chart for Kubernetes
     digest: 0ed6be0fd8c1586060aa2bee1d7c6381f155f014bfced1d4599d1de08081d592
     name: hypershift-template
     type: application
     urls:
-    - https://github.com/ammont82/cluster-templates-manifests.git/hypershift-template-0.0.2.tgz
+    - https://github.com/ammont82/cluster-templates-manifests/hypershift-template-0.0.2.tgz
     version: 0.0.2
   - annotations:
       cluster-template: "true"
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-20T11:56:40.305769182+02:00"
+    created: "2023-07-20T12:11:02.296039672+02:00"
     description: A Helm chart for Kubernetes
     digest: 5ec6d9847042c66663daad6e2f26d8abcf4d81e44260caf48571d1608c50b193
     name: hypershift-template
     type: application
     urls:
-    - https://github.com/ammont82/cluster-templates-manifests.git/hypershift-template-0.0.1.tgz
+    - https://github.com/ammont82/cluster-templates-manifests/hypershift-template-0.0.1.tgz
     version: 0.0.1
-generated: "2023-07-20T11:56:40.304083245+02:00"
+generated: "2023-07-20T12:11:02.294732973+02:00"
